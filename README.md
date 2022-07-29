@@ -11,11 +11,10 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
 
 ## Content
 
-- Deep learning part: We improved and used the method similar to DeepCpG (https://github.com/PMBio/deepcpg).
+- An inhouse script was developed to identify the enriched 3-mer sequences centered by 6mA sites, in contrast to random sequences as the negative control.
+  Usage (python 2.7+) : bash run_step1.sh 10692_sites-chr.s.e.nocorrectStrand.bed 10692
 
 - Calculate_ISOR.py: Calculate the ISOR values.
-
-  Usage (python 2.7+) : python CalculateISOR.py -g XX.gpe -b XX.bam 
 
 ## Contact
 
