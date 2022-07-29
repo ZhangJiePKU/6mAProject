@@ -11,8 +11,9 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
 
 ## Content
 
-- An inhouse script was developed to identify the enriched 3-mer sequences centered by 6mA sites, in contrast to random sequences as the negative control.
-  Usage (python 2.7+) : bash run_step1.sh 10692_sites-chr.s.e.nocorrectStrand.bed 10692
+- run_motif.sh: An inhouse script was developed to identify the enriched 3-mer sequences centered by 6mA sites, in contrast to random sequences as the negative control.
+  Usage (python 2.7+) : bash run_motif.sh <command 1> <command 2>
+  Commands:
 
 - Calculate_ISOR.py: Calculate the ISOR values.
 
