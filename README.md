@@ -16,6 +16,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
   Usage (python 2.7+) : bash run_motif.sh <command 1> <command 2>
   Commands:
     command 1: Input file (.bed): Chrom\tChromStart\tChromEnd\tComplementaryStrand
+    
     command 2: Output folder name
 
 - 6mA-Sniper pipeline: Developed to identify 6mA events at single-nucleotide resolution.
