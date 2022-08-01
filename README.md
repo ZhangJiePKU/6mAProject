@@ -13,13 +13,15 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
 
 - **3-mer_motif.sh:** An inhouse script was developed to identify the enriched 3-mer sequences centered by 6mA sites, in contrast to random sequences as the negative control.
 
-  Usage (Shell) : bash run_motif.sh <command 1> <command 2>
+  Usage (Shell) : bash 3-mer_motif.sh <command 1> <command 2>
   
   Commands:
     
       command 1: Input file (.bed) (Chrom\tChromStart\tChromEnd\tComplementaryStrand)
     
       command 2: Output folder name
+      
+      (The scripts )
 
 - **6mA-Sniper pipeline:** Developed to identify 6mA events at single-nucleotide resolution.
   
