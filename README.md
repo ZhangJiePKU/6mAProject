@@ -41,7 +41,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
        
        command 3: strand (info extracted from （Step 1) .sam files)
     
-      (The scripts run_step1.sh and run_step2.sh will be called in 6mA-Sniper-Step1.py.)
+      (The scripts extractIPDandPW.py, and run_step2.sh will be called in 6mA-Sniper-Step1.py.)
 
 ## Contact
 
