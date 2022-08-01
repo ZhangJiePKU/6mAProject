@@ -37,15 +37,54 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
       
        command 1: 6mA-Sniper-Step2.py
        
-       command 2: raw_IPD.txt (your result file)
+       command 2: raw_IPD.txt (Your result file)
        
-       command 3: strand (info extracted from （Step 1) .sam files)
+       command 3: strand (Info extracted from （Step 1) .sam files)
     
       (The scripts extractIPDandPW.py, view_reads.py and write_result.py will be called in 6mA-Sniper-Step2.py.)
      
    Step 3. Noise reduction and 6mA Identification
    
+       Step 3.1 For negative strand (Info extracted from （Step 1) .sam files)
+   
+       Usage (python 3.6.2) : python NegStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4>
+   
+       Commands:
       
+       command 1: raw_IPD.txt (File from （Step 2) result file)
+       
+       command 2: <ID> (CCS reads ID)
+       
+       command 3: <Number> (The number of columns in the raw_IPD.txt)
+       
+       command 4: WGA_N-IPD.txt (You need obtain this file using our pipeline.)
+       
+       command 5: identification.txt (Your result file1: You can calculate frequency of 6mA sites using this file.)
+       
+       command 6: N-IPD.txt (Your redsult file2: Output file of Noise reduction)
+       
+              Step 3.1 For negative strand (Info extracted from （Step 1) .sam files)
+   
+       Usage (python 3.6.2) : python PosStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4>
+   
+       Commands:
+      
+       command 1: raw_IPD.txt (File from （Step 2) result file)
+       
+       command 2: <ID> (CCS reads ID)
+       
+       command 3: <Number> (The number of columns in the raw_IPD.txt)
+       
+       command 4: WGA_N-IPD.txt (You need obtain this file using our pipeline.)
+       
+       command 5: identification.txt (Your result file1: You can calculate frequency of 6mA sites using this file.)
+       
+       command 6: N-IPD.txt (Your redsult file2: Output file of Noise reduction)
+   
+   
+   Step 4. Merge
+   
+       You can merge the results of different chromosomes using general Shell commands.
 
 ## Contact
 
