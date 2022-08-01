@@ -22,8 +22,11 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
     command 2: Output folder name
 
 - 6mA-Sniper pipeline: Developed to identify 6mA events at single-nucleotide resolution.
+  
   Step 1. Unique mapping
+    
     The raw SMRT sequencing reads were mapped to the reference genome of the species of interest using pbmm2 (version 1.1.0)
+  
   Step 2. 
 
 ## Contact
