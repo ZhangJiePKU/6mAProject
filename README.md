@@ -21,7 +21,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
     
       command 2: Output folder name
       
-      (The scripts )
+      (The scripts run_step1.sh and run_step2.sh will be called in 3-mer_motif.sh.)
 
 - **6mA-Sniper pipeline:** Developed to identify 6mA events at single-nucleotide resolution.
   
@@ -41,7 +41,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
        
        command 3: strand (info extracted from （Step 1) .sam files)
     
-      
+      (The scripts run_step1.sh and run_step2.sh will be called in 6mA-Sniper-Step1.py.)
 
 ## Contact
 
