@@ -17,9 +17,9 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
   
   Commands:
     
-    command 1: Input file (.bed) (Chrom\tChromStart\tChromEnd\tComplementaryStrand)
+      command 1: Input file (.bed) (Chrom\tChromStart\tChromEnd\tComplementaryStrand)
     
-    command 2: Output folder name
+      command 2: Output folder name
 
 - 6mA-Sniper pipeline: Developed to identify 6mA events at single-nucleotide resolution.
   
