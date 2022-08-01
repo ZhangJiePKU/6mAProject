@@ -13,9 +13,9 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
 
 - **3-mer_motif.sh:** An inhouse script was developed to identify the enriched 3-mer sequences centered by 6mA sites, in contrast to random sequences as the negative control.
 
-  Usage (Shell) : bash 3-mer_motif.sh <command 1> <command 2>
+      Usage (Shell) : bash 3-mer_motif.sh <command 1> <command 2>
   
-  Commands:
+      Commands:
     
       command 1: Input file (.bed) (Chrom\tChromStart\tChromEnd\tComplementaryStrand)
     
@@ -31,9 +31,9 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
   
   Step 2. Extract IPD and PW of each CCS reads of each chromosome
   
-    Usage (python 3.6.2) : python <command 1> <command 2> <command 3> <command 4>
+       Usage (python 3.6.2) : python <command 1> <command 2> <command 3> <command 4>
     
-    Commands:
+       Commands:
       
        command 1: 6mA-Sniper-Step2.py
        
