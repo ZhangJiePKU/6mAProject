@@ -84,7 +84,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
    
    Step 4. Merge
    
-       You can merge the results of different chromosomes using general Shell commands.
+     You can merge the results of different chromosomes using general Shell commands.
 
 ## Contact
 
