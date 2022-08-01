@@ -27,13 +27,13 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
     
     The raw SMRT sequencing reads were mapped to the reference genome of the species of interest using pbmm2 (version 1.1.0). Please convert the file to Sam format.
   
-  Step 2. Extract 
+  Step 2. Extract IPD and PW of each CCS reads of each chromosome
   
     Usage (python 3.6.2) : python <command 1> <command 2> <command 3> <command 4>
     
     Commands:
       
-       command 1: main.py
+       command 1: 6mA-Sniper-Step1.py
        
        command 2: raw_IPD.txt (your result file)
        
