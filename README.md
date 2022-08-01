@@ -25,11 +25,11 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
 
 - **6mA-Sniper pipeline:** Developed to identify 6mA events at single-nucleotide resolution.
   
-  Step 1. Unique mapping
+ ** Step 1. Unique mapping**
     
     The raw SMRT sequencing reads were mapped to the reference genome of the species of interest using pbmm2 (version 1.1.0). Please convert the file to Sam format.
   
-  Step 2. Extract IPD and PW of each CCS reads of each chromosome
+ ** Step 2. Extract IPD and PW of each CCS reads of each chromosome**
   
        Usage (python 3.6.2) : python <command 1> <command 2> <command 3> <command 4>
     
@@ -43,7 +43,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
     
       (The scripts extractIPDandPW.py, view_reads.py and write_result.py will be called in 6mA-Sniper-Step2.py.)
      
-   Step 3. Noise reduction and 6mA Identification
+  ** Step 3. Noise reduction and 6mA Identification**
    
        Step 3.1 For negative strand (Info extracted from （Step 1) .sam files)
    
@@ -63,7 +63,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
        
        command 6: N-IPD.txt (Your redsult file2: Output file of Noise reduction)
        
-              Step 3.1 For negative strand (Info extracted from （Step 1) .sam files)
+       Step 3.2 For negative strand (Info extracted from （Step 1) .sam files)
    
        Usage (python 3.6.2) : python PosStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4>
    
