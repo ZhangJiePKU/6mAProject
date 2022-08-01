@@ -17,7 +17,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
   
   Commands:
     
-    command 1: Input file (.bed): Chrom\tChromStart\tChromEnd\tComplementaryStrand
+    command 1: Input file (.bed) (Chrom\tChromStart\tChromEnd\tComplementaryStrand)
     
     command 2: Output folder name
 
@@ -25,9 +25,21 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
   
   Step 1. Unique mapping
     
-    The raw SMRT sequencing reads were mapped to the reference genome of the species of interest using pbmm2 (version 1.1.0)
+    The raw SMRT sequencing reads were mapped to the reference genome of the species of interest using pbmm2 (version 1.1.0). Please convert the file to Sam format.
   
-  Step 2. 
+  Step 2. Extract 
+  
+    Usage (python 3.6.2) : python <command 1> <command 2> <command 3> <command 4>
+    
+    Commands:
+      
+       command 1: main.py
+       
+       command 2: raw_IPD.txt (your result file)
+       
+       command 3: strand (info extracted from （Step 1) .sam files)
+    
+      
 
 ## Contact
 
