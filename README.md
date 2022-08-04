@@ -63,7 +63,7 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
        
        command 6: N-IPD.txt (Your redsult file2: Output file of Noise reduction)
        
-       Step 3.2 For negative strand (Info extracted from （Step 1) .sam files)
+       Step 3.2 For positive strand (Info extracted from （Step 1) .sam files)
    
        Usage (python 3.6.2) : python PosStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4>
    
