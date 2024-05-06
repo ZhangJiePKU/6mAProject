@@ -49,7 +49,7 @@ The current version of the scripts is suitable for large supercomputing clusters
    
        Step 3.1 For negative strand (Info extracted from （Step 1) .sam files)
    
-       Usage (python 3.6.2) : python NegStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4>
+       Usage (python 3.6.2) : python NegStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4> <command 5> <command 6>
    
        Commands:
       
@@ -67,7 +67,7 @@ The current version of the scripts is suitable for large supercomputing clusters
        
        Step 3.2 For positive strand (Info extracted from （Step 1) .sam files)
    
-       Usage (python 3.6.2) : python PosStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4>
+       Usage (python 3.6.2) : python PosStrand_N-IPD_and_Identification.py <command 1> <command 2> <command 3> <command 4> <command 5> <command 6>
    
        Commands:
       
