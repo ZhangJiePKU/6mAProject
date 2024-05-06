@@ -37,9 +37,11 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
       
        command 1: 6mA-Sniper-Step2.py
        
-       command 2: raw_IPD.txt (Your result file)
+       command 2: .sam files
        
-       command 3: strand (Info extracted from （Step 1) .sam files)
+       command 3: raw_IPD.txt (Your result file)
+       
+       command 4: strand (Info extracted from （Step 1) .sam files)
     
       (The scripts extractIPDandPW.py, view_reads.py and write_result.py will be called in 6mA-Sniper-Step2.py.)
      
