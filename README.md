@@ -31,17 +31,15 @@ While N6-methyldeoxyadenine (6mA) modification has been linked to fundamental re
   
  ** Step 2. Extract IPD and PW of each CCS reads of each chromosome**
   
-       Usage (python 3.6.2) : python <command 1> <command 2> <command 3> <command 4>
+       Usage (python 3.6.2) : python 6mA-Sniper-Step2.py <command 1> <command 2> <command 3>
     
        Commands:
-      
-       command 1: 6mA-Sniper-Step2.py
        
-       command 2: .sam files
+       command 1: .sam files
        
-       command 3: raw_IPD.txt (Your result file)
+       command 2: raw_IPD.txt (Your result file)
        
-       command 4: strand (Info extracted from （Step 1) .sam files)
+       command 3: strand (Info extracted from （Step 1) .sam files)
     
       (The scripts extractIPDandPW.py, view_reads.py and write_result.py will be called in 6mA-Sniper-Step2.py.)
      
