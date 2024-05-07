@@ -13,7 +13,7 @@ output_file_variation=sys.argv[6]
 
 file1=open(input_file,"r")
 list1=file1.readlines()
-file2=open(kz_file_nearA,"r") #(Note: For WGA samples, this parameter should be removed.)
+file2=open(kz_file_nearA,"r") #(Note: For WGA samples, this part should be removed.)
 list2=file2.readlines()
 
 def test(group1,group2):
