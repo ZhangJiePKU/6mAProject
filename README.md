@@ -59,7 +59,7 @@ The current version of the scripts is suitable for large supercomputing clusters
        
        command 3: <Number> (The number of columns in the raw_IPD.txt)
        
-       command 4: WGA_N-IPD.txt (You should the steps above using your WGA sample.)
+       command 4: WGA_N-IPD.txt (After running Step2 using your WGA sample, you can check the comments in "NegStrand_N-IPD_and_Identification.py" to obtain "WGA-N-IPD.txt".)
        
        command 5: identification.txt (Your result file1: You can calculate frequency of 6mA sites using this file.)
        
@@ -77,7 +77,7 @@ The current version of the scripts is suitable for large supercomputing clusters
        
        command 3: <Number> (The number of columns in the raw_IPD.txt)
        
-       command 4: WGA_N-IPD.txt (You need get this file by repeating the steps above using your WGA sample.)
+       command 4: WGA_N-IPD.txt (After running Step2 using your WGA sample, you can check the comments in "PosStrand-N-IDP-and-Identification.py" to obtain "WGA-N-IPD.txt".)
        
        command 5: identification.txt (Your result file1: You can calculate frequency of 6mA sites using this file.)
        
