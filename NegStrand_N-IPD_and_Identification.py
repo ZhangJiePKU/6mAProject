@@ -7,13 +7,13 @@ from math import log
 input_file=sys.argv[1]
 col_num=int(sys.argv[3])
 hole_name=sys.argv[2]
-kz_file_nearA=sys.argv[4]
+kz_file_nearA=sys.argv[4] (Note: For WGA samples, this parameter should be removed.)
 output_file_nearA=sys.argv[5]
 output_file_variation=sys.argv[6]
 
 file1=open(input_file,"r")
 list1=file1.readlines()
-file2=open(kz_file_nearA,"r")
+file2=open(kz_file_nearA,"r") (Note: For WGA samples, this parameter should be removed.)
 list2=file2.readlines()
 
 def test(group1,group2):
@@ -127,7 +127,7 @@ def main():
                         nearA_ele=normalize(input_list[a],input_list[nearA[i]])
                         output_nearA.append("\t".join(str(m) for m in nearA_ele)+"\n")
                         output_nearA_list.append(nearA_ele)
-# step 4: test --> output1 (Note: )
+# step 4: test --> output1 (Note: For WGA samples, step4 should be removed to obtain WGA_N-IPD.txt.)
         result_nearA=[]
 
         if len(output_nearA_list)==0:
