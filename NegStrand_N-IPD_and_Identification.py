@@ -127,7 +127,7 @@ def main():
                         nearA_ele=normalize(input_list[a],input_list[nearA[i]])
                         output_nearA.append("\t".join(str(m) for m in nearA_ele)+"\n")
                         output_nearA_list.append(nearA_ele)
-# step 4: test --> output1
+# step 4: test --> output1 (Note: )
         result_nearA=[]
 
         if len(output_nearA_list)==0:
